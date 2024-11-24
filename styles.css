@@ -176,7 +176,7 @@ nav ul li a:hover {
 
 /* Experiences Section */
 #experiences {
-    background: linear-gradient(to right, white, white);
+    background: linear-gradient(to right, #007bff, white);
     color: #fff;
     border-top: 5px solid #333;
 }
@@ -197,7 +197,7 @@ nav ul li a:hover {
 
 /* Skills Section */
 #skills {
-    background: linear-gradient(to top, white, white);
+    background: linear-gradient(to top, #007bff, white);
     color: #fff;
     border-top: 5px solid #f4f4f4;
 }
