@@ -172,12 +172,25 @@ header {
     border-top: 5px solid #e65100;
 }
 
+#education .content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#education h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #4d2600;
+}
+
 #education .education-item {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
-    padding: 15px;
+    padding: 20px;
     background: #fff8e1;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -191,9 +204,49 @@ header {
 
 #education .education-item h3 {
     font-size: 1.5rem;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     color: #4d2600;
 }
+
+#education .education-item p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+#education .education-item .date {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+/* Media Queries for Mobile and Small Devices */
+@media (max-width: 768px) {
+    #education .content {
+        padding: 0 10px;
+    }
+
+    #education h2 {
+        font-size: 1.8rem;
+    }
+
+    #education .education-item {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    #education .education-item h3 {
+        font-size: 1.3rem;
+    }
+
+    #education .education-item p {
+        font-size: 0.9rem;
+    }
+
+    #education .education-item .date {
+        font-size: 0.8rem;
+    }
+}
+
 
 /* Projects Section */
 #projects {
