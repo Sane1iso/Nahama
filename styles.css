@@ -116,15 +116,76 @@ header {
 
 
 
-/* Section Styling */
+/* General Section Styling */
 .section {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 60px 20px;
+    text-align: center; /* Centers text */
+    color: #333; /* Neutral text color */
+    background-color: #f9f9f9; /* Light background */
+    margin: 20px 0; /* Space between sections */
+    border-radius: 10px; /* Subtle rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Modern shadow effect */
+}
+
+/* Headings Styling */
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #444; /* Darker for emphasis */
+    font-weight: bold;
+}
+
+/* Paragraph Styling */
+.section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Highlight Section Styling */
+.highlight {
+    background: linear-gradient(135deg, #ffeb3b, #ffd740); /* Vibrant yellow gradient */
+    color: #4d2600; /* Contrasting text color */
+    padding: 60px 20px;
+    border-radius: 10px;
     text-align: center;
-    padding: 20px;
-    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+    margin: 20px 0;
+}
+
+.highlight h2 {
+    font-size: 2rem;
+    color: #4d2600;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.highlight p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .section h2, .highlight h2 {
+        font-size: 1.8rem;
+    }
+
+    .section p, .highlight p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .section h2, .highlight h2 {
+        font-size: 1.6rem;
+    }
+
+    .section p, .highlight p {
+        font-size: 0.9rem;
+    }
 }
 
 /* Home Section */
@@ -141,10 +202,22 @@ header {
     width: 200px;
     height: 200px;
     border-radius: 50%; /* Circular */
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Ensures the image doesn't overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
     border: 4px solid #ffab40; /* Bright orange border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+/* Image Styling */
+.profile-photo {
+    width: 100%; /* Adjusts image to fit the container */
+    height: 100%; /* Ensures the image is fully visible */
+    object-fit: cover; /* Ensures the image fills the container while maintaining its aspect ratio */
+    border-radius: 50%; /* Matches the container's circular shape */
+}
+
 
 /* About Section */
 #about {

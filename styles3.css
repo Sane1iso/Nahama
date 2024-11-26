@@ -47,7 +47,7 @@ body {
 }
 
 .hero-image {
-  background-image: url('campaign2/hero.jpg'); /* Replace with your image path */
+  background-image: url('campaign3/hero1.jpg'); /* Replace with your image path */
   background-size: cover; /* Ensures the image covers the entire section */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
@@ -465,7 +465,7 @@ body {
   
   /* Get Involved Section Styling */
 #involvement {
-    background-image: url('campaign2/background.jpg'); /* Replace with your image path */
+    background-image: url('campaign3/hero1.jpg'); /* Replace with your image path */
     background-size: cover; /* Ensures the image covers the entire section */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
