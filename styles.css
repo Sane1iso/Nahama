@@ -382,20 +382,102 @@ header {
     font-weight: 600;
 }
 
+/* Centering for Mobile Devices */
+@media (max-width: 768px) {
+    .content ul, 
+    #projects ul, 
+    .campaign-list {
+        text-align: center;
+        flex-direction: column;
+        justify-content: center; /* Ensures items are centered vertically in their container */
+        align-items: center; /* Centers items horizontally */
+    }
 
-/* Experiences Section */
-#experiences {
-    background: linear-gradient(to right, #ffca28, #ffab40); /* Warm yellow to orange */
-    color: #4d2600;
-    border-top: 5px solid #e65100;
+    .content ul li, 
+    #projects li, 
+    .campaign-item {
+        margin: 0 auto; /* Centers individual items */
+        width: 90%; /* Adjusts width to fit smaller screens */
+    }
+
+    .campaign-item {
+        max-width: 350px; /* Ensures a consistent card size */
+    }
 }
 
-/* Skills Section */
-#skills {
-    background: linear-gradient(to top, #ffcc80, #ffe082);
-    color: #4d2600;
-    border-top: 5px solid #4d2600;
+
+.section {
+    padding: 50px 20px;
+    background: #fff;
 }
+
+.section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #e65100; /* Vibrant orange for headings */
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.section h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #ffdd57; /* Bright yellow accent */
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content ul li {
+    background: #fbe9e7; /* Light orange background for cards */
+    border: 1px solid #ffab91; /* Subtle orange border */
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(100% - 40px);
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.content ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.content ul li strong {
+    font-size: 1.2rem;
+    color: #e65100; /* Vibrant orange for strong text */
+}
+
+.content ul li p {
+    font-size: 1rem;
+    color: #424242; /* Neutral dark gray for readability */
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.content ul li p strong {
+    color: #ffdd57; /* Bright yellow for highlighting key info */
+}
+
+@media (max-width: 768px) {
+    .content ul {
+        text-align: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
 
 /* Contact Section */
 #contact {
