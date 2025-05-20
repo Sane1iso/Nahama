@@ -1,10 +1,10 @@
 /* General Styles */
 body {
     margin: 0;
-    font-family: 'Poppins', Arial, sans-serif; /* Clean and modern font */
+    font-family: 'Poppins', Arial, sans-serif; 
     line-height: 1.6;
-    background: #fff5e1; /* Warm background tone */
-    color: #4d2600; /* Rich brown for contrast */
+    background: #fff5e1; 
+    color: #4d2600; 
 }
 
 /* General Header Styles */
@@ -12,7 +12,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: #e65100; /* Vibrant orange for header */
+    background: #e65100; 
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -35,7 +35,7 @@ header {
 .hamburger {
     font-size: 24px;
     cursor: pointer;
-    display: none; /* Hidden by default, shown on mobile */
+    display: none; 
 }
 
 /* Navigation Links for Desktop */
@@ -58,7 +58,7 @@ header {
 .nav-links a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     padding: 10px;
     transition: color 0.3s, transform 0.3s;
 }
@@ -75,7 +75,7 @@ header {
     }
 
     .nav-links {
-        display: none; /* Hidden initially */
+        display: none;
         flex-direction: column;
         background: #333;
         position: absolute;
@@ -92,7 +92,7 @@ header {
     .nav-links.active {
         display: flex;
         opacity: 1;
-        max-height: 500px; /* Expand height to fit content */
+        max-height: 500px; 
     }
 
     .nav-links ul {
@@ -119,19 +119,19 @@ header {
 /* General Section Styling */
 .section {
     padding: 60px 20px;
-    text-align: center; /* Centers text */
-    color: #333; /* Neutral text color */
-    background-color: #f9f9f9; /* Light background */
-    margin: 20px 0; /* Space between sections */
-    border-radius: 10px; /* Subtle rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Modern shadow effect */
+    text-align: center; 
+    color: #333; 
+    background-color: #f9f9f9; 
+    margin: 20px 0; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
 /* Headings Styling */
 .section h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #444; /* Darker for emphasis */
+    color: #444; 
     font-weight: bold;
 }
 
@@ -145,8 +145,8 @@ header {
 
 /* Highlight Section Styling */
 .highlight {
-    background: linear-gradient(135deg, #ffeb3b, #ffd740); /* Vibrant yellow gradient */
-    color: #4d2600; /* Contrasting text color */
+    background: linear-gradient(135deg, #ffeb3b, #ffd740); 
+    color: #4d2600; 
     padding: 60px 20px;
     border-radius: 10px;
     text-align: center;
@@ -201,10 +201,10 @@ header {
     margin: 20px auto;
     width: 200px;
     height: 200px;
-    border-radius: 50%; /* Circular */
-    overflow: hidden; /* Ensures the image doesn't overflow */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    border: 4px solid #ffab40; /* Bright orange border */
+    border-radius: 50%;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border: 4px solid #ffab40; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -212,16 +212,16 @@ header {
 
 /* Image Styling */
 .profile-photo {
-    width: 100%; /* Adjusts image to fit the container */
-    height: 100%; /* Ensures the image is fully visible */
-    object-fit: cover; /* Ensures the image fills the container while maintaining its aspect ratio */
-    border-radius: 50%; /* Matches the container's circular shape */
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 50%; 
 }
 
 
 /* About Section */
 #about {
-    background: linear-gradient(to bottom right, #ffe082, #ffc107); /* Golden tones */
+    background: linear-gradient(to bottom right, #ffe082, #ffc107); 
     color: #4d2600;
     border-top: 5px solid #e65100;
 }
@@ -239,7 +239,7 @@ header {
 
 /* Education Section */
 #education {
-    background: linear-gradient(135deg, #ffeb3b, #ffd740); /* Vibrant yellow tones */
+    background: linear-gradient(135deg, #ffeb3b, #ffd740); 
     color: #4d2600;
     padding: 40px 20px;
     border-top: 5px solid #e65100;
@@ -323,7 +323,7 @@ header {
 
 /* Projects Section */
 #projects {
-    background: linear-gradient(135deg, #ff8a65, #ff7043); /* Bold orange */
+    background: linear-gradient(135deg, #ff8a65, #ff7043); 
     color: white;
     border-top: 5px solid #4d2600;
 }
@@ -353,9 +353,9 @@ header {
 
 .campaign-item {
     background: #fff;
-    border: 2px solid #ffa500; /* Bright orange border */
+    border: 2px solid #ffa500; 
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
     overflow: hidden;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -363,7 +363,7 @@ header {
 }
 
 .campaign-item:hover {
-    transform: translateY(-5px); /* Slight hover effect */
+    transform: translateY(-5px); 
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
 }
 
@@ -377,7 +377,7 @@ header {
 .campaign-description {
     font-size: 1rem;
     padding: 10px;
-    background: #ffcc33; /* Light yellow background */
+    background: #ffcc33; 
     color: #333;
     font-weight: 600;
 }
@@ -389,19 +389,19 @@ header {
     .campaign-list {
         text-align: center;
         flex-direction: column;
-        justify-content: center; /* Ensures items are centered vertically in their container */
-        align-items: center; /* Centers items horizontally */
+        justify-content: center; 
+        align-items: center; 
     }
 
     .content ul li, 
     #projects li, 
     .campaign-item {
-        margin: 0 auto; /* Centers individual items */
-        width: 90%; /* Adjusts width to fit smaller screens */
+        margin: 0 auto; 
+        width: 90%; 
     }
 
     .campaign-item {
-        max-width: 350px; /* Ensures a consistent card size */
+        max-width: 350px; 
     }
 }
 
@@ -414,7 +414,7 @@ header {
 .section h2 {
     text-align: center;
     font-size: 2.5rem;
-    color: #e65100; /* Vibrant orange for headings */
+    color: #e65100; 
     margin-bottom: 30px;
     position: relative;
 }
@@ -424,7 +424,7 @@ header {
     display: block;
     width: 60px;
     height: 4px;
-    background: #ffdd57; /* Bright yellow accent */
+    background: #ffdd57; 
     margin: 10px auto;
     border-radius: 2px;
 }
@@ -439,8 +439,8 @@ header {
 }
 
 .content ul li {
-    background: #fbe9e7; /* Light orange background for cards */
-    border: 1px solid #ffab91; /* Subtle orange border */
+    background: #fbe9e7; 
+    border: 1px solid #ffab91; 
     border-radius: 10px;
     padding: 20px;
     width: calc(100% - 40px);
@@ -456,18 +456,18 @@ header {
 
 .content ul li strong {
     font-size: 1.2rem;
-    color: #e65100; /* Vibrant orange for strong text */
+    color: #e65100; 
 }
 
 .content ul li p {
     font-size: 1rem;
-    color: #424242; /* Neutral dark gray for readability */
+    color: #424242; 
     line-height: 1.6;
     margin-top: 10px;
 }
 
 .content ul li p strong {
-    color: #ffdd57; /* Bright yellow for highlighting key info */
+    color: #ffdd57; 
 }
 
 @media (max-width: 768px) {
@@ -481,37 +481,88 @@ header {
 
 /* Contact Section */
 #contact {
-    background-color: #e65100;
+    background-color: #e65100; /* Deep orange */
     color: white;
-    padding: 60px 20px;
+    padding: 80px 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #contact h2 {
     color: #ffd740; /* Golden yellow */
-    margin-bottom: 20px;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+#contact p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: #fffbe6;
 }
 
 .contact-list {
     list-style: none;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 .contact-list li {
-    margin: 10px 0;
     font-size: 1.2rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.contact-list li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-3px);
 }
 
 .contact-list i {
-    margin-right: 10px;
+    margin-right: 12px;
     color: #ffd740;
+    font-size: 1.4rem;
 }
+
+/* Link Styling */
+.contact-list a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-list a:hover {
+    color: #ffd740;
+    text-decoration: underline;
+}
+@media (min-width: 600px) {
+    .contact-list {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-list li {
+        margin: 10px;
+    }
+}
+
 
 /* Footer */
 footer {
     padding: 20px;
     text-align: center;
-    background-color: #4d2600; /* Deep brown */
-    color: #ffcc80;
+    background-color: #4d2600; 
 }
 
 footer a {
